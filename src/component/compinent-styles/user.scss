@@ -1,0 +1,14 @@
+.user-info {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+  img {
+    top: -10px;
+    position: relative;
+  }
+}

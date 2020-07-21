@@ -1,0 +1,97 @@
+.details-main {
+  margin: 20px 20px 80px 80px;
+  padding-left: 20px;
+  .pag-title {
+    .page-title-inner {
+      color: #2196f3;
+      margin: 0;
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+  .row {
+    margin-top: 60px;
+    .left-side {
+      .detail-img {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .right-side {
+      .complete-details {
+        .detail-title {
+          color: #101010;
+          font-weight: 300;
+          font-size: 22px;
+          letter-spacing: 2px;
+          margin-bottom: 20px;
+          .detail-status {
+            background: #49b551;
+            font-size: 13px;
+            color: white;
+            padding: 5px 15px;
+            margin-left: 20px;
+            border-radius: 5px;
+            text-align: center;
+            letter-spacing: 0;
+          }
+        }
+        .loc-details {
+          color: #101010;
+          font-size: 13px;
+          letter-spacing: 2px;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+        .exact-area {
+          font-size: 16px;
+          display: flex;
+          align-items: baseline;
+          color: #2196f3;
+          letter-spacing: 2px;
+          font-weight: 100;
+          margin-bottom: 20px;
+          img {
+            width: 16px;
+            margin-right: 10px;
+          }
+        }
+        .user {
+          h6 {
+            display: flex;
+            align-items: baseline;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            img {
+              width: 16px;
+              margin-right: 10px;
+            }
+          }
+        }
+        .details-about {
+          font-size: 14px;
+          font-weight: 200;
+          letter-spacing: 1px;
+          color: gray;
+        }
+        .know-more-btn {
+          background: #2196f3;
+          border: 2px solid #2196f3;
+          color: white;
+          padding: 8px 20px;
+          border-radius: 8px;
+          font-size: 15px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          transition: 0.3s all ease-in-out;
+          &:hover {
+            background: white;
+            color: #2196f3;
+          }
+        }
+      }
+    }
+  }
+}

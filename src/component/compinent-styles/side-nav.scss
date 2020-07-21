@@ -1,0 +1,38 @@
+.side-nav-main {
+  background: #2196f3;
+  color: white;
+  width: 75px;
+  padding: 15px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  .side-nav-inner-area {
+    .logo {
+      margin: 5px 0;
+      .logo-inner {
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        line-height: 17px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+    .icons {
+      margin: 25px auto;
+      padding-top: 20px;
+      text-align: center;
+      div {
+        img {
+          width: 22px;
+          cursor: pointer;
+          transition: 0.3s all ease-out;
+          &:hover {
+            transform: scale(1.15);
+          }
+        }
+      }
+    }
+  }
+}

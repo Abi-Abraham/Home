@@ -1,0 +1,10 @@
+@import "./component/compinent-styles/side-nav.scss";
+@import "./component/compinent-styles/user.scss";
+@import "../src/pages/listing/listing-styles/listing-main.scss";
+@import "../src/pages/details/details-styles/details.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
